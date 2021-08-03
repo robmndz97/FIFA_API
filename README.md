@@ -11,6 +11,6 @@ De manera local el link es http://localhost:3000/jugadores/busqueda_jugadores y 
 
 Deploy de app en heroku: https://apififa.herokuapp.com/jugadores/busqueda_jugadores <br/><br/>
 
-APIs:
+APIs:<BR/>
 GET https://apififa.herokuapp.com/api/v1/players <br/>
 POST https://apififa.herokuapp.com/api/v1/team
