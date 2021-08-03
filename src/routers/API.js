@@ -9,13 +9,11 @@ router.post('/team', (req, res) => {
         "equipo": req.body.Name,
         "page": req.body.Page
     };
-    const apikey = req.header('x-api-key');
 
     jugador.getJugadoresEquipo(equipo, (err, data, extras) => {
         if (data){
             res.json(
                 {
-                    "llave": apikey,
                     "Page": extras.pagina,
                     "totalPages": extras.totalPaginas,
                     "Items": extras.jugadoresPagina,
