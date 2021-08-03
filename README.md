@@ -9,4 +9,8 @@ extraerAPI.js Es el script para almacenar datos de la API en la base de datos, p
 Para correr aplicacion ejecutar comando "npm run start", dentro de la carpeta raiz de la aplicacion una vez haya creado base de datos y ejecutado script.
 De manera local el link es http://localhost:3000/jugadores/busqueda_jugadores y para las API el mismo puerto local y las direcciones especificadas en el documento de la prueba.<br/><br/>
 
-Deploy de app en heroku: https://apififa.herokuapp.com/jugadores/busqueda_jugadores <br/>
+Deploy de app en heroku: https://apififa.herokuapp.com/jugadores/busqueda_jugadores <br/><br/>
+
+APIs:
+GET https://apififa.herokuapp.com/api/v1/players <br/>
+POST https://apififa.herokuapp.com/api/v1/team
