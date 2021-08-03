@@ -58,7 +58,7 @@ $(document).on("click", "#ir-buscar", async function(){
 
             $('#paginacion').twbsPagination({
                 totalPages: totalPaginas,
-                visiblePages: 10,
+                visiblePages: 5,
                 onPageClick: function (event, page) {
                 
                     mostrarJugadores(buscador, page);       //AQUI MANEJAMOS LA PAGINATION, MOSTRANDO POR PAGINA
