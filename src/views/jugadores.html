@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/mis-estilos.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+      <div class="container-fluid">
+          <img class="pr-3" src="/img/logoblanco.svg" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarColor01">
+              <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                   
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Jugadores</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="jugadores_equipo">Jugadores por Equipo</a>
+                  </li>
+              </ul>
+            <form class="d-flex">
+                <input class="form-control me-sm-2" type="text" placeholder="Ingrese Nombre" id="buscador">
+                <button class="btn btn-secondary my-2 my-sm-0" type="button" id="ir-buscar" >Buscar</button>
+            </form>
+          </div>
+      </div>
+  </nav>
+  
+
+    
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col">
+
+              <div class="table-responsive">
+                <table class="table table-hover table-sm text-center align-self-center">
+                  <thead class="fondo-gradiente">
+                    <tr>
+                      <th scope="col" class="text-primary">Jugador</th>
+                      <th scope="col" class="text-primary">Nombre</th>
+                      <th scope="col" class="text-primary">Posición</th>
+                      <th scope="col" class="text-primary">Equipo</th>
+                      <th scope="col" class="text-primary">Detalles</th>
+                      
+                    </tr>
+                  </thead>
+                  <tbody id="jugadores">
+                      <tr>
+                        <td colspan="5">Ingrese el nombre de jugador en el buscador</td>
+                      </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <ul class="pagination pagination-sm" id='paginacion'>
+              
+            </ul>
+          </div>
+        </div>
+    </div>
+    
+
+    <!-- Modal -->
+    <div class="modal fade" id="jugador-info" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header fondo-animado">           
+              <img src="/img/jugador.png" alt="">
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                    <h5 > <span id="nombre_p">Leonel Messi Mendez Lopez</span>  (<small class="text-muted" id="pais_p">Argentina</small>) </h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6">
+                  <small><p>Equipo: <span class="text-muted" id="equipo_p">Juventus</span> </p></small>
+                </div>
+                <div class="col-6">
+                  <small><p>Posición: <span class="text-muted" id="posicion_p">Delantero</span> </p></small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer pt-1">
+            <button type="button" class="btn btn-primary btn-sm" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.twbsPagination.min.js"></script>
+    <script src="/js/buscar-jugadores.js"></script>
+    
+
+
+   
+</body>
+</html>
