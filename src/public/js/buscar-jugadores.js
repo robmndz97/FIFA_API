@@ -26,7 +26,6 @@ $(document).ready(async function () {
         }
     });
 
-    console.log(jugadores)
 
     //AQUI SE MOSTRARAN LOS JUGADORES EN LA TABLA
     jugadores.forEach(jugador => {

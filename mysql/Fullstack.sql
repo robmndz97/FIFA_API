@@ -1,5 +1,4 @@
-CREATE DATABASE  IF NOT EXISTS `jugadores` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
-USE `jugadores`;
+
 -- MySQL dump 10.13  Distrib 5.6.24, for Win64 (x86_64)
 --
 -- Host: localhost    Database: jugadores
