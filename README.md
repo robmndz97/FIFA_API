@@ -15,4 +15,4 @@ APIs:<BR/>
 GET https://apififa.herokuapp.com/api/v1/players <br/>
 POST https://apififa.herokuapp.com/api/v1/team <BR/><BR/>
 
-En caso de querer hacer pruebas y el servidor este caido notificar.
+En caso de querer hacer pruebas y el servidor este caido, notificar.
