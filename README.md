@@ -13,8 +13,7 @@ Deploy de app en heroku: https://apififa.herokuapp.com/jugadores/busqueda_jugado
 
 APIs:<BR/><BR/>
 
-Busqueda de jugadores por nombre. <BR/
-GET https://apififa.herokuapp.com/api/v1/players <br/>
+GET https://apififa.herokuapp.com/api/v1/players (Busqueda de jugadores por nombre)<br/>
 Ejemplo de uso: /api/v1/players?search=cristi&order=asc&page=1 <BR/><BR/>
 
 Busqueda de jugadores por equipo.<BR/>
