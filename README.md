@@ -1,6 +1,6 @@
 # FIFA_API
 
-LA APLICACION FUE DESARROLLADO CON NODEJS, EXPRESSJS, MYSQL, BOOTSTRAP <br/><br/>
+LA APLICACION FUE DESARROLLADO CON NODEJS, EXPRESSJS, MYSQL, BOOTSTRAP, HTML, CSS <br/><br/>
 
 En la carpeta Mysql se encuentra el script para crear la base de datos y su tabla. En la carpeta config se encuentra la configuracion para la conexion con la base de datos.<br/><br/>
 
